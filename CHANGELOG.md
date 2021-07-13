@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v1.0.1 - 2021-07-13
+
+Add a required `aws` provider to the module.
+This doesn't change any of the created resources, but it suppresses a warning about providers in newer versions of Terraform.
+
 ## v1.0.0 - 2021-07-09
 
 Initial release.
