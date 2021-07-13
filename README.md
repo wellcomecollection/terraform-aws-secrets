@@ -3,7 +3,7 @@
 This module is for creating secrets in AWS Secrets Manager.
 It allows us to treat Secrets Manager as a key-value store for secrets:
 
-```hcl2
+```hcl
 module "secrets" {
   source = "github.com/wellcomecollection/terraform-aws-secrets?ref=v1.0.0"
 
