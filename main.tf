@@ -14,7 +14,7 @@ resource "aws_secretsmanager_secret" "secret" {
 
   name = each.key
 
-  recovery_window_in_days = var.recovery_window_in_days
+  recovery_window_in_days = local.recovery_window_in_days
 }
 
 resource "aws_secretsmanager_secret_version" "secret" {
