@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v1.2.0 - 2021-07-15
+
+Fix a bug in v1.1.0.
+
 ## v1.1.0 - 2021-07-15
 
 This adds a `deletion_mode` variable which is either `"SOFT"` or `"IMMEDIATE"`.
