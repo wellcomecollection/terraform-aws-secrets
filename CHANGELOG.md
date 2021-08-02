@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v1.3.0 - 2021-08-02
+
+Export a list of secret version ARNs.
+
 ## v1.2.0 - 2021-07-15
 
 Fix a bug in v1.1.0.
