@@ -22,4 +22,8 @@ resource "aws_secretsmanager_secret_version" "secret" {
 
   secret_id     = aws_secretsmanager_secret.secret[each.key].id
   secret_string = each.value
+  
+  version_stages = [
+    "AWSCURRENT"  
+  ]
 }
