@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v1.4.0 - 2022-06-22
+
+Add an optional `description` argument for describing secrets.
+
 ## v1.3.0 - 2021-08-02
 
 Export a list of secret version ARNs.
