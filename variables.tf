@@ -1,3 +1,8 @@
+variable "description" {
+  type    = string
+  default = "(managed by Terraform)"
+}
+
 variable "key_value_map" {
   type = map(string)
 }
