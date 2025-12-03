@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v1.5.0 - 2025-12-03
+
+Output the secret version so it can be used, and as an indicator that the value has changed to consuming modules.
+
 ## v1.4.0 - 2022-06-22
 
 Add an optional `description` argument for describing secrets.
